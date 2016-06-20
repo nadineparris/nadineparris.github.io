@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}	
+}h1	{font-family: "Georgia Book", serif;
+	font-size: 20px;
+	font-style: italic;
+	padding-top: 10px;
+	text-align: center;
+}
+h2	{font-family: "Proxima Nova Bold", sans-serif;;
+	font-size: 36px;
+	font-color: #fff;
+}
+h3	{font-family: "Proxima Nova Thin", sans-serif;;
+	font-size: 28px;
+}
+h4	{font-family: "Proxima Nova Extrabold", sans-serif;;
+	font-size: 24px;
+	font-style: bold;
+	padding-bottom: 10px;
+}
+
+.bodyContent {
+	padding-left:50px;
+}
+.morePadding {
+	padding-left:30px;
+}
+.mainBlock {
+	height:570px;
+}
+.subBlock {
+	height:150px;
+}
+.firstSection div:nth-child(1) {
+	background-color: #345678;
+}
+.firstSection div:nth-child(2) {
+	background-color: #cdcdcd;
+}
+.firstSection div:nth-child(3) {
+	background-color: #ababab;
+}
