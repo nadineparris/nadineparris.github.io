@@ -39,6 +39,8 @@ h4	{font-family: "proxima-nova", sans-serif;;
 }
 .subBlock {
 	height:150px;
+	text-align: left;
+	padding-left: 20px;
 }
 .firstSection div:nth-child(1) {
 	background-color: #345678;
@@ -48,4 +50,6 @@ h4	{font-family: "proxima-nova", sans-serif;;
 }
 .firstSection div:nth-child(3) {
 	background-color: #ababab;
+}
+#logoblock {text-align: center;
 }
