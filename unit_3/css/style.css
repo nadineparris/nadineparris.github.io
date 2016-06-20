@@ -13,7 +13,7 @@ h1	{font-family: "Georgia Book", serif;
 	text-align: center;
 }
 h2	{font-family: "proxima-nova", sans-serif;;
-	font-size: 36px;
+	font-size: 20px;
 	font-color: #fff;
 	font-weight: 700;
 }
@@ -23,7 +23,6 @@ h3	{font-family: "proxima-nova", sans-serif;;
 }
 h4	{font-family: "proxima-nova", sans-serif;
 	font-size: 18px;
-	font-style: bold;
 	padding-bottom: 10px;
 	font-weight: 900;
 }
