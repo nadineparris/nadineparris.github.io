@@ -14,7 +14,7 @@ h1	{font-family: "Georgia Book", serif;
 }
 h2	{font-family: "proxima-nova", sans-serif;;
 	font-size: 30px;
-	font-color: #fff;
+	font-color: #ffffff;
 	font-weight: 700;
 }
 h3	{font-family: "proxima-nova", sans-serif;;
@@ -50,5 +50,9 @@ h4	{font-family: "proxima-nova", sans-serif;
 .firstSection div:nth-child(3) {
 	background-color: #ababab;
 }
-#logoblock {text-align: center;
+#logoblock {
+	text-align: center;
+}
+#imageblock {
+	text-align: left;
 }
