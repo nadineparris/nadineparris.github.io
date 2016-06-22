@@ -24,6 +24,8 @@ a   {
 	text-decoration: none;
 	padding-right: 20px;
 	padding-left: 20px;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
 }	
 h1	{
 	font-family: "Georgia Book", serif;
@@ -42,9 +44,10 @@ h2	{
 }
 h3	{
 	font-family: "proxima-nova", sans-serif;
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: 100;
 	line-height: 30px;
+	padding-top: 10px;
 }
 h4	{
 	font-family: "proxima-nova", sans-serif;
@@ -71,7 +74,23 @@ h6	{
 .important {
 	color: #fff;
 }
+.small {
+	font-size: 12px;
+	color: #ccc;
+}
 #large {
 	font-size: 30px;
+}
+#services {
+}
+#quote {
+	background: #37404f;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+#nav {
+	padding-top: 60px;
+	background: #333;
+	padding-bottom: 60px;
 }
 
