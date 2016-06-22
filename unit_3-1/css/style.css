@@ -1,19 +1,25 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
 body {
 	text-align: center;
-	background: url("../images/coverimage.jpg");
-	background-size: 1900px;
-	background-repeat: no-repeat;
 	color: #000;
 	font-family: "proxima-nova", sans-serif;
 	font-size: 18px;
-	padding-top: 150px;
+}
+section {
+	padding:5em 0;
+}
+section#splash {
+	background: url("../images/coverimage.jpg");
+	background-repeat: no-repeat;
+	background-cover;
+	background-position: right;
+	padding: 9em 0;
 }
 p   {
-	font-size: 50;
 	line-height: 32px;
 }
 hr	{
@@ -34,7 +40,7 @@ h1	{
 	padding-top: 10px;
 	font-color: #000;
 }
-h2	{
+h	{
 	font-family: "proxima-nova", sans-serif;
 	font-size: 30px;
 	font-color: #000;
@@ -42,21 +48,21 @@ h2	{
 	line-height: 34px;
 	padding-bottom: 10px;
 }
-h3	{
+h2	{
 	font-family: "proxima-nova", sans-serif;
 	font-size: 24px;
 	font-weight: 100;
 	line-height: 30px;
 	padding-top: 10px;
 }
-h4	{
+h3	{
 	font-family: "proxima-nova", sans-serif;
 	font-size: 18px;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	font-weight: 900;
 }
-h5	{
+blockquote	{
 	font-family: "Georgia Book", serif;
 	font-size: 20px;
 	font-style: italic;
@@ -85,8 +91,6 @@ h6	{
 }
 #quote {
 	background: #37404f;
-	padding-bottom: 20px;
-	padding-top: 10px;
 }
 #nav {
 	padding-top: 60px;
