@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	text-align: center;
+	background: "images/coverimage.jpg";
+	background-size: cover;
+	color: #000;
+	font-family: "proxima-nova", sans-serif;
+	font-size: 16;
+	line-height: 32px}
+a {
+	color: #666;
+	text-decoration: none;
+}	
+nav a {
+	color: #999;
+	margin-right: 10px;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	margin-right: 20px;
+	text-align: right;
+}
+h1	{
+	font-family: "Georgia Book", serif;
+	font-size: 20px;
+	font-style: italic;
+	padding-top: 10px;
+	text-align: center;
+	font-color: #000;
+}
+h2	{
+	font-family: "proxima-nova", sans-serif;;
+	font-size: 30px;
+	font-color: #000;
+	font-weight: 700;
+	line-height: 34px;
+	text-align: center;
+}
+h3	{
+	font-family: "proxima-nova", sans-serif;;
+	font-size: 28px;
+	font-weight: 100;
+	line-height: 30px;
+}
+h4	{
+	font-family: "proxima-nova", sans-serif;
+	font-size: 18px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: 900;
+	text-align: center;
+}
+h5	{
+	font-family: "proxima-nova", sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	font-color: #000;
+	text-align: left;
+	padding-top: 20;
+	padding-bottom: 20;
+}
+h6	{
+	font-family: "proxima-nova", sans-serif;;
+	font-size: 30px;
+	font-color: #000;
+	font-weight: 700;
+	line-height: 50px;
+	text-align: center;
+	padding-top: 20px;
+}
+b1	{
+	font-family: "proxima-nova", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	padding-bottom: 14px;
+	font-color: #222;
+}
+

@@ -9,7 +9,7 @@ a {
 nav a {
 	color: #999;
 	margin-right: 10px;
-	font-family: "proxima-nova" sans-serif
+	font-family: "proxima-nova", sans-serif;
 	font-weight: 700;
 	margin-right: 20px;
 	text-align: right;
@@ -23,7 +23,7 @@ h1	{
 	font-color: #fff;
 }
 h2	{
-	font-family: "proxima-nova", sans-serif;;
+	font-family: "proxima-nova", sans-serif;
 	font-size: 30px;
 	font-color: #000;
 	font-weight: 700;
@@ -31,7 +31,7 @@ h2	{
 	text-align: center;
 }
 h3	{
-	font-family: "proxima-nova", sans-serif;;
+	font-family: "proxima-nova", sans-serif;
 	font-size: 28px;
 	font-weight: 100;
 	line-height: 30px;
@@ -55,7 +55,7 @@ h5	{
 	padding-bottom: 20;
 }
 h6	{
-	font-family: "proxima-nova", sans-serif;;
+	font-family: "proxima-nova", sans-serif;
 	font-size: 30px;
 	font-color: #fff;
 	font-weight: 700;
@@ -97,7 +97,6 @@ b1	{
 }
 .firstSection div:nth-child(2) {
 }
-
 .firstSection div:nth-child(3) {
 	background-color: #fff;
 	height: 400px;
