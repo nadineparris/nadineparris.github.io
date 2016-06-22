@@ -3,11 +3,11 @@
 	margin: 0;
 }
 a {
-	color: #ffffff;
+	color: #fff;
 	text-decoration: none;
 }	
 nav a {
-	color: #999999;
+	color: #999;
 	margin-right: 10px;
 	font-family: "proxima-nova" sans-serif
 	font-weight: 700;
@@ -19,15 +19,16 @@ h1	{
 	font-size: 20px;
 	font-style: italic;
 	padding-top: 10px;
-	text-align: left;
-	font-color: #ffffff;
+	text-align: center;
+	font-color: #fff;
 }
 h2	{
 	font-family: "proxima-nova", sans-serif;;
 	font-size: 30px;
-	font-color: #ffffff;
+	font-color: #000;
 	font-weight: 700;
 	line-height: 0px;
+	text-align: center;
 }
 h3	{
 	font-family: "proxima-nova", sans-serif;;
@@ -47,7 +48,7 @@ h5	{
 	font-family: "proxima-nova", sans-serif;
 	font-size: 30px;
 	font-weight: 100;
-	font-color: #ffffff;
+	font-color: #fff;
 	text-align: left;
 	padding-left: 20;
 	padding-top: 20;
@@ -56,7 +57,7 @@ h5	{
 h6	{
 	font-family: "proxima-nova", sans-serif;;
 	font-size: 30px;
-	font-color: #ffffff;
+	font-color: #fff;
 	font-weight: 700;
 	line-height: 50px;
 	text-align: center;
@@ -67,9 +68,8 @@ b1	{
 	font-size: 16px;
 	font-weight: 300;
 	padding-bottom: 14px;
-	font-color: #222222;
+	font-color: #222;
 }
-
 .bodyContent {
 	padding-left: 20px;
 }
@@ -77,50 +77,51 @@ b1	{
 	padding-left:30px;
 }
 .mainBlock {
-	height: 400px;
+	height: 550px;
 	padding-top: 20px;
+	font-color: #fff;
 }
 .subBlock {
-	height: 200px;
+	height: 250px;
 	text-align: left;
-	padding-left: 20px;
-	padding-top: 20px;
 }
 .quoteBlock {
 	text-align: center;
-	background-color: #000000;
+	background-color: #606f83;
 	padding-bottom: 10px;
+	font-color: #fff;
 }
 .firstSection div:nth-child(1) {
-	background-color: #492943;
-	font-color: #ffffff;
+	background-color: #7acdc8;
+	font-color: #fff;
 }
 .firstSection div:nth-child(2) {
-	background-color: #999999;
 }
+
 .firstSection div:nth-child(3) {
-	background-color: #ffffff;
+	background-color: #fff;
 	height: 400px;
 }
 .firstSection div:nth-child(4) {
-	background-color: #000000;
+	background-color: #D2C85C;
 }
 .secondSection div:nth-child(4) {
+	background-color: #fff;
 }
 
 #logoblock {
 	text-align: center;
-	font-color: inherit;
+	font-color: #fff;
 }
 #quoteblock {
-	background-color: #000000;
-	font-color: #ffffff;
+	font-color: #fff;
 }
 #iconblock {
 	text-align: center;
 }
-#backgroundimage1 {
+#backgroundimage {
 	height: auto;
 	left: 0;
 	margin: 0;
 }
+
