@@ -7,7 +7,7 @@ body {
 	background: url("../images/coverimage.jpg");
 	background-size: 1900px;
 	background-repeat: no-repeat;
-	color: #000s;
+	color: #000;
 	font-family: "proxima-nova", sans-serif;
 	font-size: 18px;
 	padding-top: 150px;
@@ -38,6 +38,7 @@ h2	{
 	font-color: #000;
 	font-weight: 700;
 	line-height: 34px;
+	padding-bottom: 10px;
 }
 h3	{
 	font-family: "proxima-nova", sans-serif;
@@ -67,7 +68,10 @@ h6	{
 	line-height: 50px;
 	padding-top: 20px;
 }
-div.whitetext {
-	font-color: #fff;
+.important {
+	color: #fff;
+}
+#large {
+	font-size: 30px;
 }
 
