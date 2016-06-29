@@ -21,6 +21,7 @@ section#splash {
 }
 section#topnav {
 	background: #58aba5;
+	letter-spacing: .25em;
 }
 p   {
 	line-height: 32px;
@@ -43,14 +44,6 @@ h1	{
 	padding-top: 10px;
 	font-color: #000;
 }
-h	{
-	font-family: "proxima-nova", sans-serif;
-	font-size: 30px;
-	font-color: #000;
-	font-weight: 700;
-	line-height: 34px;
-	padding-bottom: 10px;
-}
 h2	{
 	font-family: "proxima-nova", sans-serif;
 	font-size: 24px;
@@ -69,17 +62,8 @@ blockquote	{
 	font-family: "Georgia Book", serif;
 	font-size: 20px;
 	font-style: italic;
-	font-color: #154678;
 	width: 40em;
 	margin: 1em auto;
-}
-h6	{
-	font-family: "proxima-nova", sans-serif;
-	font-size: 30px;
-	font-color: #000;
-	font-weight: 700;
-	line-height: 50px;
-	padding-top: 20px;
 }
 .important {
 	color: #fff;
