@@ -36,8 +36,7 @@ hr	{
 a   {
 	color: #666;
 	text-decoration: none;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding: 1.5em 1.5em;
 	font-family: "proxima-nova", sans-serif;
 	font-weight: 700;
 }	
@@ -53,7 +52,6 @@ h2	{
 	font-size: 24px;
 	font-weight: 100;
 	line-height: 30px;
-	padding-top: 10px;
 }
 h3	{
 	font-family: "proxima-nova", sans-serif;
@@ -69,6 +67,14 @@ blockquote	{
 	width: 40em;
 	margin: 1em auto;
 }
+ul
+{
+list-style-type: none;
+text-align: left;
+border: 1px #777 solid;
+padding: 1em;
+margin: 1em 0;
+}
 .important {
 	color: #fff;
 }
@@ -76,12 +82,53 @@ blockquote	{
 	font-size: 12px;
 	color: #ccc;
 }
+.dedication {
+	background: #E89C6C;
+	border: 1px black solid;
+	padding: 1.25em;
+	margin: 1em auto;
+}
+.print {
+	background: #E89C6C;
+	border: 1px black solid;
+	padding: 1.25em;
+	margin: 1em auto;
+	width: 33.3%;
+}
+.web {
+	background: #E89C6C;
+	border: 1px black solid;
+	padding: 1.25em;
+	margin: 1em auto;
+	width: 33.3%;
+}
+.uxui {
+	background: #E89C6C;
+	border: 1px black solid;
+	padding: 1.25em;
+	margin: 1em auto;
+	width: 33.3%;
+}
+.contactform {
+	background: #E89C6C;
+	border: 1px black solid;
+	padding: 1.25em;
+	margin: 1em auto;
+	width: 50%;
+}
+.socialicons {
+	background: #E89C6C;
+	border: 1px black solid;
+	padding: 1.25em;
+	margin: 1em auto;
+	width: 50%;
+}
+#quote {
+	background: #37404f;
+}
 #large {
 	font-size: 30px;
 }
 #services {
-	padding: 20px;
-}
-#quote {
-	background: #37404f;
+	padding: 1.5em;
 }
