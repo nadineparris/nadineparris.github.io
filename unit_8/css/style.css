@@ -15,7 +15,7 @@ section {
 section#splash {
 	background: url("../images/coverimage.jpg");
 	background-repeat: no-repeat;
-	background-cover;
+	background-image;
 	background-position: right;
 	padding: 9em 0;
 	background-size: cover;
@@ -26,11 +26,17 @@ section#motto {
 	padding: 2em 0 0;
 }
 section#services {
-	/* float: left; */
-	padding: 1em 0;
-	/* display: inline-block; */
-	width: 60em;
+	width: 80%;
 	margin: auto;
+}
+section#quote {
+	width: 100%;
+	background: #37404f;
+}
+section#contact {
+	width: 85%;
+	margin: auto;
+	padding: 0 0 2em;
 }
 nav {
 	background: #58aba5;
@@ -42,41 +48,8 @@ footer {
 	clear: both;
 	padding-bottom: 5em;
 }
-
-
-
-@media only screen and (min-width: 1800) {
-	body {
-		font-size: 20px;
-	}
-
-@media only screen and (max-width: 1130) {
-	footer p }
-		float: none;
-	}
-	footer {
-		text-align: center;
-	}
-}
-
-@media only screen and (max-width: 900px){
-	body{
-		font-size: 18px;
-	}
-	main {
-		width: 55%;
-	}
-}
-
-
-
-
-
 p   {
-	line-height: 32px;
-}
-hr	{
-	width: 200px;
+	line-height: 2em;
 }
 a   {
 	color: #666;
@@ -90,45 +63,30 @@ a:hover {
 }
 h1	{
 	font-family: "Georgia Book", serif;
-	font-size: 20px;
+	font-size: 1.11em;
 	font-style: italic;
-	padding-top: 10px;
+	padding-top: .75em;
 	font-color: #000;
 }
 h2	{
 	font-family: "proxima-nova", sans-serif;
-	font-size: 24px;
+	font-size: 1.33em;
 	font-weight: 100;
-	line-height: 30px;
+	line-height: 1.66em;
 }
 h3	{
 	font-family: "proxima-nova", sans-serif;
-	font-size: 18px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	font-size: 1em;
+	padding-bottom: .55em;
+	padding-top: .55em;
 	font-weight: 900;
 }
 blockquote	{
 	font-family: "Georgia Book", serif;
-	font-size: 1.2em;
+	font-size: 1.11em;
 	font-style: italic;
-	width: 30em;
+	width: 80%;
 	margin: 1em auto;
-}
-ul {
-	list-style-type: none;
-	text-align: left;
-	border: 1px #777 solid;
-	padding: 1em;
-	margin: 1em 0;
-}
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
 }
 .important {
 	color: #fff;
@@ -137,52 +95,71 @@ ul {
 	font-size: 12px;
 	color: #ccc;
 }
+#wrapper {
+	width: 85%;
+	margin: auto;
+}
 #motto {
 	margin: .5em auto 0;
 }
 #print {
-	padding: 3%;
-	margin: 1%;
 	width: 31.3%;
-	min-width: 300px;
 	float: left;
+	padding: 0 1em 2em;
 }
 #web {
-	padding: 3%;
-	margin: 1%;
 	width: 31.3%;
-	min-width: 300px;
 	float: left;
+	padding: 0 1em 2em;
 }
 #uxui {
-	padding: 3%;
-	margin: 1%;
 	width: 31.3%;
-	min-width: 300px;
 	float: left;
+	padding: 0 1em 2em;
 }
 .contactform {
-	padding: .5em 1em;
-	width: 520px;
-	min-width: 320px;
+	width: 50%;
 	float: left;
+	margin: auto;
 }
 .socialicons {
-	padding: .5em 1em;
-	margin: auto;
-	width: 520px;
-	min-width: 320px;
+	width: 50%;
 	float: left;
+	margin: auto;
+	padding: 0 0 2em;
+	display: block;
 }
 #quote {
-	background: #37404f;
 	clear: both;
+	margin: 2em auto;
+	width: 65%;
 }
 #large {
-	font-size: 30px;
-}
-#services {
-	width: 100%;
+	font-size: 1.66em;
 }
 
+@media screen (min-width: 1200px) {
+	body: 24px {
+	}
+	#wrapper {
+		width: 1600px;
+	}
+}
+@media screen (max-width: 1000px) {
+	section#contact {
+		float: none;
+	}
+}
+@media screen (max-width: 660px) {
+	#print, #web, #uxui {
+		float: none;
+	}
+	nav a {
+		float: none;
+		font-size: 16px;
+	}
+	section#contact {
+		float: none;
+	}
+}
 
