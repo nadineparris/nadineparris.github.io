@@ -138,19 +138,19 @@ blockquote	{
 	font-size: 1.66em;
 }
 
-@media screen (min-width: 1200px) {
+@media only screen (min-width: 1200px) {
 	body: 24px {
 	}
 	#wrapper {
 		width: 1600px;
 	}
 }
-@media screen (max-width: 1000px) {
+@media only screen (max-width: 1000px) {
 	section#contact {
 		float: none;
 	}
 }
-@media screen (max-width: 660px) {
+@media only screen (max-width: 660px) {
 	#print, #web, #uxui {
 		float: none;
 	}
@@ -159,6 +159,9 @@ blockquote	{
 		font-size: 16px;
 	}
 	section#contact {
+		float: none;
+	}
+	.socialicons {
 		float: none;
 	}
 }
