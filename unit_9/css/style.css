@@ -54,7 +54,7 @@ p   {
 a   {
 	color: #666;
 	text-decoration: none;
-	padding: 1.5em 1.5em 0;
+	padding: 1em 1.5em 0;
 	font-family: "proxima-nova", sans-serif;
 	font-weight: 700;
 }
@@ -118,12 +118,12 @@ blockquote	{
 	padding: 0 1em 2em;
 }
 .contactform {
-	width: 100%;
+	width: 35%;
 	float: left;
 	margin: auto;
 }
 .socialicons {
-	width: 100%;
+	width: 65%;
 	float: left;
 	margin: auto;
 	padding: 0 0 2em;
@@ -137,7 +137,9 @@ blockquote	{
 #large {
 	font-size: 1.66em;
 }
-
+	#mobile {
+		display: none;
+	}
 @media  screen and (min-width: 1200px) {
 	body {
 	font-size: 24px;
@@ -151,32 +153,64 @@ blockquote	{
 		float: none;
 		padding: 0;
 	}
+	section#socialicons {
+		float: none;
+		padding: 0;
+	}
 }
-@media  screen and (max-width: 660px) {
-	#print, #web, #uxui {
+@media  screen and (max-width: 740px) {
+	nav a {
+		float: none;
+		width: 100%;
+		padding: .5em;
+		font-size: 18px;
+		display: none;
+	}
+	#mobile {
+		display: block;
+		padding: .5em 1em;
+	}
+	nav:hover a {
+		display: block;
+	}
+	#print {
+		width: 100%;
+		float:none;
+		display: block;
+		padding: 0 0 2em;
+	}
+	#web {
+		width: 100%;
+		float:none;
+		display: block;
+		padding: 0 0 2em;
+	}
+	#uxui {
 		width: 100%;
 		float:none;
 		display: block;
 		padding: 0;
 	}
-	.socialicons a {
-		padding: 0;
-	}
-	.socialicons img {
-		max-width: 50px;
-		max-height: 50px;
-	}
-	nav a {
+	.socialicons {
 		float: none;
-		width: 100%;
 		display: block;
-		font-size: 16px;
+		padding: auto;
+		width: 100%;
+	}
+	.contactform {
+		float: none;
+		padding: 0 0 2em;
 	}
 	section#contact {
 		float: none;
 	}
-	.socialicons {
+	footer a {
 		float: none;
+		width: 100%;
+		padding: .5em;
+		font-size: 18px;
+		display: block;
 	}
+
 }
 
