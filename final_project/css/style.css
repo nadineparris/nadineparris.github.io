@@ -26,7 +26,7 @@ section#motto {
 	padding: 2em 0 0;
 }
 section#services {
-	width: 80%;
+	max-width: 1200px;
 	margin: auto;
 }
 section#quote {
@@ -50,14 +50,14 @@ footer {
 p   {
 	line-height: 2em;
 }
-a   {
-	color: #666;
+nav a   {
+	color: rgba(0,0,0,.5);
 	text-decoration: none;
 	padding: 1em 1.5em 0;
 	font-family: "proxima-nova", sans-serif;
 	font-weight: 700;
 }
-a:hover {
+nav a:hover {
 	color: #fff;
 }
 h1	{
@@ -128,10 +128,10 @@ blockquote	{
 	padding: 0 0 2em;
 	display: block;
 }
-#samplehero {
-	width: 31.3%;
+.samplehero {
+	width: 33.33%;
 	float: left;
-	padding: 0 1em 2em;
+	padding: 0 1em;
 }
 #quote {
 	clear: both;
@@ -148,6 +148,13 @@ blockquote	{
 	display: none;
 	float: left;
 	padding: 0 0 .5em;
+}
+.clearfix:after {
+	height:0;
+	visibility:hidden;
+	content:"";
+	display:block;
+	clear:both;
 }
 @media  screen and (min-width: 1600px) {
 	body {
@@ -174,14 +181,19 @@ blockquote	{
 		padding: .25em 0;
 		font-size: 18px;
 		display: none;
+		clear: both;
 	}
 	#mobile {
 		display: inline;
-		padding: .5em 1em;
+		padding: 0 1em;
+		float: right;
+		width: initial;
+		clear: none;
 	}
 	#mobilelogo {
-		display: inline;
-		padding: 0 0 .5em 1em;
+		float: left;
+		padding: 0 1em;
+		display: block;
 	}
 	nav:hover a {
 		display: block;
@@ -214,7 +226,7 @@ blockquote	{
 		float: none;
 		padding: 0 0 2em;
 	}
-	#samplehero {
+	.samplehero {
 		width: 100%;
 		float: none;
 		padding: 0 1em 2em;
